@@ -62,7 +62,7 @@ public class DisplayEngineSwingPanel extends JPanel {
         g.setColor(Color.WHITE);
         for (int i = 0; i < currentLife.size(); i++) {
             MyPoint p = currentLife.get(i);
-            g.drawRect(p.x * 3, p.y * 3, 2, 2);
+            g.fillRect(p.x * 3, p.y * 3, 2, 2);
         }
     }
 }

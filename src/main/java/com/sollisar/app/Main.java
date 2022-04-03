@@ -10,7 +10,7 @@ public class Main {
     /** The Game of Life, as interpreted by @author
      * @param args[] Args to this application are ignored.
      */
-    public static void main(String args[]) {
+    public static void main(final String args[]) {
         final int boardSize = 300;
 
         RuleEngine rules = new RuleEngine(true);
